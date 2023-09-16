@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #1B1C1F;
+}
+.navigation{
+    background-color: #323335;
+    border-radius: 24px;
+    width: 416px;
+    justify-content: center;
+}
+.menu-btn{
+    background-color: #fff;
+}
+@media (max-width:991px){
+    .menu-bg{
+        background-color: #323335;
+    }
+    .nav-link{
+        margin-left: 20px;
+    }
+    .btn-purple{
+        display: block;
+    }
+}
+@media (max-width: 420px){
+    .gta, .fortinate{
+        margin: 0;
+        margin-top: 16px;
+    }
+    .hero-title{
+        font-size: 38px;
+    }
+    .hero-desc{
+        font-size: 16px;
+    }
+    .card-row{
+        flex-direction: column;
+    }
+}
+.hero-title{
+    font-size: 64px;
+}
+.hero-desc{
+    font-size: 24px;
+}
+.btn-purple{
+    background-color: #8d46f6;
+    padding: 16px 40px;
+    transition: 0.2s;
+}
+.btn-purple:hover{
+    background-color: #532892;
+}
+@media(max-width: 1400px){
+    .hero-title{
+        font-size: 48px;
+    } 
+    .hero-desc{
+        font-size: 20px;
+    }
+}
+.gta{
+    flex: 1.5;
+    height: 330px;
+    background-color: #8b46f6;
+    border-radius: 56px;
+    margin-right: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.2s;
+}
+.gta:hover{
+    background-color: #532892;
+}
+.fortinate{
+    flex: 1;
+    height: 330px;
+    background-color: #f8fa6a;
+    border-radius: 56px;
+    margin-left: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.2s;
+}
+.fortinate:hover{
+    background-color: #6afa6a;
+}
+.dota{
+    width: 100%;
+    height: 330px;
+    background-color: #69adfd;
+    border-radius: 56px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 16px;
+    transition: 0.2s;
+}
+.dota img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.dota:hover{
+    background-color: #fd69f1;
+}
+@media (max-width: 420px){
+    .gta, .fortinate{
+        margin: 0;
+        margin-top: 16px;
+    }
+    .hero-title{
+        font-size: 38px;
+    }
+    .hero-desc{
+        font-size: 16px;
+    }
+    .card-row{
+        flex-direction: column;
+    }
+}
