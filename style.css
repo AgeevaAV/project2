@@ -24,21 +24,7 @@ body{
         display: block;
     }
 }
-@media (max-width: 420px){
-    .gta, .fortinate{
-        margin: 0;
-        margin-top: 16px;
-    }
-    .hero-title{
-        font-size: 38px;
-    }
-    .hero-desc{
-        font-size: 16px;
-    }
-    .card-row{
-        flex-direction: column;
-    }
-}
+
 .hero-title{
     font-size: 64px;
 }
@@ -109,7 +95,7 @@ body{
 .dota:hover{
     background-color: #fd69f1;
 }
-@media (max-width: 420px){
+@media(max-width: 520px){
     .gta, .fortinate{
         margin: 0;
         margin-top: 16px;
