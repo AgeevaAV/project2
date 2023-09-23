@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+.main-content{
+    max-width: 1200px;
+    margin: auto;
+}
 body{
     background-color: #1B1C1F;
 }
@@ -95,6 +99,29 @@ body{
 .dota:hover{
     background-color: #fd69f1;
 }
+.logo{
+    animation-name: rotation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+
+}
+.logo:hover{
+    animation-play-state: paused;
+}
+@keyframes rotation{
+    0%{
+      transform: rotate(0 deg);  
+    }
+    100%{
+       transform: rotate(360 deg);
+    }
+}
+.footer-link:nth-child(2){
+    margin: 0 24px;
+}
+
 @media(max-width: 520px){
     .gta, .fortinate{
         margin: 0;
@@ -109,4 +136,11 @@ body{
     .card-row{
         flex-direction: column;
     }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-link:nth-child(2){
+        margin: 0;
+    }
 }
+
