@@ -112,10 +112,10 @@ body{
 }
 @keyframes rotation{
     0%{
-      transform: rotate(0 deg);  
+      transform: rotate(0deg);  
     }
     100%{
-       transform: rotate(360 deg);
+       transform: rotate(360deg);
     }
 }
 .footer-link:nth-child(2){
@@ -138,6 +138,7 @@ body{
     }
     .footer-content{
         flex-direction: column;
+        align-items: center;
     }
     .footer-link:nth-child(2){
         margin: 0;
