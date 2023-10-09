@@ -178,6 +178,9 @@ body{
     height: 100%;
     object-fit: cover;
 }
+.footer-link{
+    text-decoration: none;
+}
 @media(max-width: 520px){
     .gta, .fortinate{
         margin: 0;
